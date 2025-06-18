@@ -1,0 +1,49 @@
+/* Fondo general */
+body {
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  border-bottom: 2px solid #222;
+}
+
+/* Contenedor de las tarjetas */
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Cada tarjeta de peli */
+.tarjeta {
+  background-color: #111;
+  border: 2px solid #222;
+  border-radius: 10px;
+  width: 320px;
+  padding: 10px;
+  box-shadow: 0 0 10px #111;
+}
+
+/* Título de cada peli */
+.tarjeta h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Video incrustado */
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
